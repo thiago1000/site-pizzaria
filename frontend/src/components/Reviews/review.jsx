@@ -1,6 +1,6 @@
 import styles from './review.module.scss';
 import { useNextSanityImage } from 'next-sanity-image';
-import client from '@/sanity';
+import client from '../../sanity';
 import Image from 'next/image';
 
 export const Review = ({ name, review, image }) => {

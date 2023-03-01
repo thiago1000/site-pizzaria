@@ -1,11 +1,11 @@
-import { Benefits } from "@/components/Benefits";
-import { Cardapio } from "@/components/Cardapio";
-import { Header } from "@/components/Header";
-import { ImageText } from "@/components/ImageText";
-import { Reviews } from "@/components/Reviews";
-import { Menu } from "@/components/Menu";
-import { Footer } from "@/components/Footer";
-import { Navbar } from "@/components/Navbar";
+import { Benefits } from "../components/Benefits";
+import { Cardapio } from "../components/Cardapio";
+import { Header } from "../components/Header";
+import { ImageText } from "../components/ImageText";
+import { Reviews } from "../components/Reviews";
+import { Menu } from "../components/Menu";
+import { Footer } from "../components/Footer";
+import { Navbar } from "../components/Navbar";
 import client from "../sanity";
 
 

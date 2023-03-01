@@ -1,7 +1,7 @@
 import styles from './item.module.scss';
 import Image from 'next/image';
 import { useNextSanityImage } from 'next-sanity-image';
-import client from '@/sanity';
+import client from '../../sanity';
 
 export const Item = ({ image, title, category }) => {
   const imageProps = useNextSanityImage(client, image);
